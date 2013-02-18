@@ -9,3 +9,5 @@ Zeta Psi doorbell (iOS), which is running on an iPod touch.
 -Get a copy of the doorbell server running (wex has it)  
 -Copy "credentials-example.m" to "credentials.m", and insert creds, IP, and port corresponding to the server  
 -Run this app on an iOS device!  
+
+MIT License, contrary to what any of the original source files say.
