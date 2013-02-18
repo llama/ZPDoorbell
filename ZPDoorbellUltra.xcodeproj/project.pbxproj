@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91815AFD16D2B7910016A029 /* credentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 91815AFC16D2B7900016A029 /* credentials.m */; };
+		91815AFF16D2B8450016A029 /* credentials-example.m in Sources */ = {isa = PBXBuildFile; fileRef = 91815AFE16D2B8450016A029 /* credentials-example.m */; };
+		91F3D0BE15E7055D00F0E0F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F3D0BD15E7055D00F0E0F0 /* UIKit.framework */; };
+		91F3D0C015E7055D00F0E0F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F3D0BF15E7055D00F0E0F0 /* Foundation.framework */; };
+		91F3D0C215E7055D00F0E0F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F3D0C115E7055D00F0E0F0 /* CoreGraphics.framework */; };
+		91F3D0C815E7055D00F0E0F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91F3D0C615E7055D00F0E0F0 /* InfoPlist.strings */; };
+		91F3D0CA15E7055D00F0E0F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F3D0C915E7055D00F0E0F0 /* main.m */; };
+		91F3D0CE15E7055D00F0E0F0 /* ZPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F3D0CD15E7055D00F0E0F0 /* ZPAppDelegate.m */; };
+		91F3D0D115E7055D00F0E0F0 /* ZPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F3D0D015E7055D00F0E0F0 /* ZPViewController.m */; };
+		91F3D0DB15E7057000F0E0F0 /* ZPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F3D0DA15E7057000F0E0F0 /* ZPViewController.xib */; };
+		91F3D0DE15E7058300F0E0F0 /* doorbell5.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F3D0DC15E7058300F0E0F0 /* doorbell5.png */; };
+		91F3D0DF15E7058300F0E0F0 /* doorbellin.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F3D0DD15E7058300F0E0F0 /* doorbellin.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91815AFC16D2B7900016A029 /* credentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = credentials.m; sourceTree = "<group>"; };
+		91815AFE16D2B8450016A029 /* credentials-example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "credentials-example.m"; sourceTree = "<group>"; };
+		91F3D0B915E7055D00F0E0F0 /* ZPDoorbellUltra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPDoorbellUltra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F3D0BD15E7055D00F0E0F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91F3D0BF15E7055D00F0E0F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91F3D0C115E7055D00F0E0F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91F3D0C515E7055D00F0E0F0 /* ZPDoorbellUltra-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZPDoorbellUltra-Info.plist"; sourceTree = "<group>"; };
+		91F3D0C715E7055D00F0E0F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91F3D0C915E7055D00F0E0F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91F3D0CB15E7055D00F0E0F0 /* ZPDoorbellUltra-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZPDoorbellUltra-Prefix.pch"; sourceTree = "<group>"; };
+		91F3D0CC15E7055D00F0E0F0 /* ZPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPAppDelegate.h; sourceTree = "<group>"; };
+		91F3D0CD15E7055D00F0E0F0 /* ZPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPAppDelegate.m; sourceTree = "<group>"; };
+		91F3D0CF15E7055D00F0E0F0 /* ZPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPViewController.h; sourceTree = "<group>"; };
+		91F3D0D015E7055D00F0E0F0 /* ZPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPViewController.m; sourceTree = "<group>"; };
+		91F3D0DA15E7057000F0E0F0 /* ZPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZPViewController.xib; sourceTree = "<group>"; };
+		91F3D0DC15E7058300F0E0F0 /* doorbell5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doorbell5.png; sourceTree = "<group>"; };
+		91F3D0DD15E7058300F0E0F0 /* doorbellin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doorbellin.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91F3D0B615E7055D00F0E0F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F3D0BE15E7055D00F0E0F0 /* UIKit.framework in Frameworks */,
+				91F3D0C015E7055D00F0E0F0 /* Foundation.framework in Frameworks */,
+				91F3D0C215E7055D00F0E0F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91F3D0AE15E7055D00F0E0F0 = {
+			isa = PBXGroup;
+			children = (
+				91F3D0C315E7055D00F0E0F0 /* ZPDoorbellUltra */,
+				91F3D0BC15E7055D00F0E0F0 /* Frameworks */,
+				91F3D0BA15E7055D00F0E0F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91F3D0BA15E7055D00F0E0F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F3D0B915E7055D00F0E0F0 /* ZPDoorbellUltra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F3D0BC15E7055D00F0E0F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91F3D0BD15E7055D00F0E0F0 /* UIKit.framework */,
+				91F3D0BF15E7055D00F0E0F0 /* Foundation.framework */,
+				91F3D0C115E7055D00F0E0F0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91F3D0C315E7055D00F0E0F0 /* ZPDoorbellUltra */ = {
+			isa = PBXGroup;
+			children = (
+				91F3D0CC15E7055D00F0E0F0 /* ZPAppDelegate.h */,
+				91F3D0CD15E7055D00F0E0F0 /* ZPAppDelegate.m */,
+				91F3D0CF15E7055D00F0E0F0 /* ZPViewController.h */,
+				91F3D0D015E7055D00F0E0F0 /* ZPViewController.m */,
+				91815AFC16D2B7900016A029 /* credentials.m */,
+				91815AFE16D2B8450016A029 /* credentials-example.m */,
+				91F3D0DA15E7057000F0E0F0 /* ZPViewController.xib */,
+				91F3D0C415E7055D00F0E0F0 /* Supporting Files */,
+			);
+			path = ZPDoorbellUltra;
+			sourceTree = "<group>";
+		};
+		91F3D0C415E7055D00F0E0F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91F3D0DC15E7058300F0E0F0 /* doorbell5.png */,
+				91F3D0DD15E7058300F0E0F0 /* doorbellin.png */,
+				91F3D0C515E7055D00F0E0F0 /* ZPDoorbellUltra-Info.plist */,
+				91F3D0C615E7055D00F0E0F0 /* InfoPlist.strings */,
+				91F3D0C915E7055D00F0E0F0 /* main.m */,
+				91F3D0CB15E7055D00F0E0F0 /* ZPDoorbellUltra-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91F3D0B815E7055D00F0E0F0 /* ZPDoorbellUltra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F3D0D715E7055D00F0E0F0 /* Build configuration list for PBXNativeTarget "ZPDoorbellUltra" */;
+			buildPhases = (
+				91F3D0B515E7055D00F0E0F0 /* Sources */,
+				91F3D0B615E7055D00F0E0F0 /* Frameworks */,
+				91F3D0B715E7055D00F0E0F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPDoorbellUltra;
+			productName = ZPDoorbellUltra;
+			productReference = 91F3D0B915E7055D00F0E0F0 /* ZPDoorbellUltra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91F3D0B015E7055D00F0E0F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Doug Feigelson";
+			};
+			buildConfigurationList = 91F3D0B315E7055D00F0E0F0 /* Build configuration list for PBXProject "ZPDoorbellUltra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91F3D0AE15E7055D00F0E0F0;
+			productRefGroup = 91F3D0BA15E7055D00F0E0F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91F3D0B815E7055D00F0E0F0 /* ZPDoorbellUltra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91F3D0B715E7055D00F0E0F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F3D0C815E7055D00F0E0F0 /* InfoPlist.strings in Resources */,
+				91F3D0DB15E7057000F0E0F0 /* ZPViewController.xib in Resources */,
+				91F3D0DE15E7058300F0E0F0 /* doorbell5.png in Resources */,
+				91F3D0DF15E7058300F0E0F0 /* doorbellin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91F3D0B515E7055D00F0E0F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F3D0CA15E7055D00F0E0F0 /* main.m in Sources */,
+				91F3D0CE15E7055D00F0E0F0 /* ZPAppDelegate.m in Sources */,
+				91F3D0D115E7055D00F0E0F0 /* ZPViewController.m in Sources */,
+				91815AFD16D2B7910016A029 /* credentials.m in Sources */,
+				91815AFF16D2B8450016A029 /* credentials-example.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91F3D0C615E7055D00F0E0F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F3D0C715E7055D00F0E0F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91F3D0D515E7055D00F0E0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91F3D0D615E7055D00F0E0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91F3D0D815E7055D00F0E0F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZPDoorbellUltra/ZPDoorbellUltra-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "ZPDoorbellUltra/ZPDoorbellUltra-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91F3D0D915E7055D00F0E0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZPDoorbellUltra/ZPDoorbellUltra-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "ZPDoorbellUltra/ZPDoorbellUltra-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91F3D0B315E7055D00F0E0F0 /* Build configuration list for PBXProject "ZPDoorbellUltra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F3D0D515E7055D00F0E0F0 /* Debug */,
+				91F3D0D615E7055D00F0E0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F3D0D715E7055D00F0E0F0 /* Build configuration list for PBXNativeTarget "ZPDoorbellUltra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F3D0D815E7055D00F0E0F0 /* Debug */,
+				91F3D0D915E7055D00F0E0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91F3D0B015E7055D00F0E0F0 /* Project object */;
+}
